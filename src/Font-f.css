@@ -1,0 +1,324 @@
+/* mobil tel uchun */
+@media (max-width: 480px) {
+    .pizza-h-img{
+        width: 70px;
+}
+}
+
+  .hamburger-div{
+    transition: top;
+  }
+
+  @media(max-width: 639px) {
+    .aksiya-item-h2{
+    text-align: center;
+    }
+}
+
+.korzinka{
+    color: #4d4f59;
+}
+
+  @media (max-width: 273px) {
+    .swiper-div{
+        display: none;
+    }
+
+    .aksiya-item-link{
+        display: flex;
+        justify-content: center;
+    }
+
+    .font-f-r{
+        font-size: 25px;
+    }
+    .aksiya-item-r{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .aksiya-item-p{
+        margin-bottom: 15px;
+    }
+}
+    @media (max-width: 380px) {
+        
+        .call-link{
+            display: none;
+        }
+        .pizza-h-img{
+            width: 70px;
+        }
+        .drawer-w{
+            width: 50vh;
+        }
+    
+
+    .pizza-h-img{
+        width: 60px;
+
+    }
+    .card{
+        margin-right: 0px;
+    }
+
+  }
+
+
+  @media (max-width: 640px) {
+    /* Home.jsx res */
+    .menyu-h{
+        display: none;
+    }
+    .pizza-h-b{
+        padding-left: 12px;
+
+    }
+    .pizza-h-img{
+        width: 144px;
+
+    }
+    .swiper-h-2{
+        display: block;
+    }
+
+    .swiper-h{
+        display: none;
+    }
+
+    .pizza-text-h-p{
+        text-align: center;
+    }
+    .text-home{
+        text-align: center;
+    }
+    .call-link{
+        position: absolute;
+        margin-right: auto;
+        right: 0%;
+        margin-right: 9%;
+        
+    }
+
+    .hamburger{
+        margin-left: 5px;
+        margin-right: 10px;
+        right: 0;
+        position: absolute;
+    }
+
+    .card{
+        margin-right: 0%;
+        margin-left: 0;
+    }
+
+    .swiper-h{
+        display: none;
+    }
+
+    /* .swiper-h-2{
+        display: block;
+    } */
+
+  }
+
+  @media (max-width: 640px) and (min-width:520px){
+    .suv-grid{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .suv-name{
+        text-align: center;
+    }
+  }
+
+  @media (max-width: 672px){
+    .modal-r{
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+  }
+
+  @media (max-width:1024px){
+    .text-text-color-r{
+        font-family: "Montserrat", serif;
+    }
+  }
+
+  @media (max-width: 605px) and (min-width: 450px){
+    .call-link{
+        position: relative;
+        margin-left: 5%;
+    }
+
+    .call-link-ch{
+        position: absolute;
+    }
+  }
+  @media (max-width: 520px){
+    .suv-name{
+        text-align: center;
+    }
+  }
+  
+
+  @media(max-width:450px){
+    .call-link{
+        right: 5%;
+    }
+  }
+
+  /* Planshet uchun */
+@media (max-width: 733px) {
+
+    .cta-link{
+        top: 6%;
+        position: absolute;
+        right: 4%;
+        margin-right: 9%;
+
+    }
+
+    
+
+  }
+  
+
+@media (max-width: 997px) {
+    .nav{
+        display: none;
+    }
+
+    .cta-link{
+        margin-right: auto
+    }
+
+
+    
+
+  }
+
+  @media (max-width: 880px) {
+    .navbar{
+        display: none;
+    }
+
+    .card{
+        margin-left: auto;
+    }
+    
+    .hamburger{
+        display: block;
+    }
+
+    .cta-link{
+        margin-left: auto;
+    }
+
+  }
+
+  @media(max-width: 1165px) {
+    .header-nav-ul-li-link{
+    
+        font-size: 14px;
+    }
+
+    .nav-container{
+        padding-right: 3px;
+    }
+
+  }
+  /* Noutbuk va katta ekranlar uchun */
+  @media (max-width: 1113px) {
+
+
+    .nav-ul{
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    .text-text-color{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+  }
+
+  @media (max-width: 1027px) {
+    .nav-ul{
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .text-text-color{
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+
+  }
+
+  @media (max-width: 924px) {
+
+    .text-text-color{
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+
+    .nav-ul{
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+
+  }
+
+
+
+.font-f{
+    font-family: "Montserrat", sans-serif;
+}
+.text-text-color{
+    font-family: "Montserrat", serif;
+}
+
+.text-pizza{
+    color: #797979;
+}
+.text-text-pizza{
+    color: #686466;
+}
+.text-all-color{
+    color:#231f20;
+}
+
+.text-text-pizza-3{
+    background: #E3ECF5;
+}
+
+.bg-w{
+    background-color: white;
+}
+
+.Rsf{
+    font-family: "Roboto Serif", serif;
+}
+
+/* planshet */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .swiper-h-2{
+        display: none;
+    }
+  }
+/* noutbuklar */
+  @media (min-width: 1025px) {
+    .swiper-h-2{
+        display: none;
+    }
+  }
+
+@media only screen and (min-width: 881px) {
+    .call-link{
+        position: relative;
+    }
+    .call-link-ch{
+        position: absolute;
+
+    }
+}
+
